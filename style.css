@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+nav a {
+    display: center;
+    color: white;
+    margin: 15px 0;
+    text-decoration: none;
+    font-size: 18px;
+
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    transition: color 0.3s; 
+}
+
+
+nav a:hover {
+    color: black; 
+}
+
+main {
+    margin-left: 200px; 
+    width: 100%;
+    
+}
+section {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.section1 div {
+  width: 100%;      
+  margin: auto; 
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section1 .movimiento{
+    overflow: hidden;              /* Oculta el texto desbordante */
+    border-right: 0.15em solid;    /* Crea un efecto de cursor al final */
+    white-space: nowrap;           /* Evita el salto de línea */
+    margin: 0 auto;                /* Centra el texto */
+    animation: typewriter 4s steps(30) infinite, blinkCursor 0.5s step-end infinite;
+  }
+  
+  @keyframes typewriter {
+    0% { width: 0; }               /* Empieza desde 0 para que se vea como si estuviera escribiéndose */
+    50% { width: 100%; }           /* Alcanza el 100% del texto */
+    100% { width: 100%; }             /* Vuelve a 0% para repetir */
+  }
+  
+  @keyframes blinkCursor {
+    50% { border-color: transparent; }
+  }
+
+
+.section2 div {
+  width: 100%;      
+  margin: auto; 
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.section3 div {
+  width: 100%;      
+  margin: auto; 
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.section4 div {
+  width: 100%;      
+  margin: auto; 
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.section5 div {
+  width: 100%;      
+  margin: auto; 
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.section6 div {
+  width: 100%;      
+  margin: auto; 
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.all-icons{
+
+    display: flex; 
+    gap: 10px;
+}
+
+.icono {
+    
+    width: 24px;
+    height: 24px;
+    font-size: 24px; 
+}
+
+.section1 { 
+    background-color: #f4a261; }
+.section2 { 
+    background-color: #2a9d8f; }
+.section3 { 
+    background-color: #e76f51; }
+.section4 {
+    background-color:  purple;}
+.section5 {
+        background-color: red;}
+.section6 {
+    background-color:  #4f92ac}
+
